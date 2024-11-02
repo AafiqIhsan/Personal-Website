@@ -1,0 +1,38 @@
+.container>.row>div>h1{
+    text-align: justify;
+}
+
+.container>.row>div>img{
+    border-radius: 20px;
+}
+
+.btn-outline-warning {
+    color: #FFD369;
+    border-color: #FFD369;
+    transition: 0.3s;
+  }
+  .btn-outline-warning:hover {
+    color: #222831;
+    background-color: #FFD369;
+    border-color: #FFD369;
+  }
+
+  .btn-warning {
+    color: #222831;
+    background-color: #FFD369;
+    border-color: #FFD369;
+  }
+  .btn-warning:hover {
+    color: #222831;
+    border-color: #FFD369;
+    transition: 0.3s;
+  }
+
+@media (max-width: 991px){
+    .container>.row>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

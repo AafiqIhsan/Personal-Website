@@ -1,0 +1,37 @@
+.profile{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-img{
+    border-radius: 50%;
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.video-container{
+    height: 80vh !important;
+}
+
+#myCarousel{
+    width: 80%;
+}
+
+#myCarousel h1{
+    text-align: center;
+}
+
+@media(min-width:992px){
+    .profile{
+        text-align: justify;
+    }
+}
+
+@media(max-width:992px){
+    .video-container{
+        height: 40vh !important;
+    }
+}

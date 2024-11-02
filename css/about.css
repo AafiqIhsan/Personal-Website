@@ -1,0 +1,22 @@
+.container>.row>div>h1{
+    text-align: justify;
+}
+    
+.container>.row>div>p{
+    text-align: justify;
+}
+
+.container>.row>div>img{
+    border-radius: 20px;
+}
+
+@media (max-width: 991px){
+    .container>.row>div>h1{
+        text-align: center;
+    }
+        
+    .container>.row>div>p{
+        text-align: center;
+    }    
+}
+

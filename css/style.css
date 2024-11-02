@@ -1,0 +1,60 @@
+/*CSS for full Website*/
+body {
+    background-color: #222831;
+    color: #eeeeee;
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 2;
+}
+h1,h2{
+  margin-bottom: 10px;
+}  
+.navbar {
+  background-color: #222831;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-nav .nav-link {
+  color: #eeeeee !important;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #ffd369 !important; /* Changes text color on hover */
+  background-color: transparent !important; /* No background change */
+}
+.nav-link:active {
+  color: #eeeeee !important; /* Changes text color when clicked */
+  background-color: transparent !important; /* No background change */
+}
+.footer {
+  background-color: #222831;
+  padding: 20px;
+  text-align: center;
+}
+.footer a {
+  color: #eeeeee;
+  padding: 10px;
+}
+.footer a:hover {
+  color: #ffd369;
+}
+
+.top-container{
+  margin-top: 100px;
+}
+
+.light-bg{
+  background-color: #EEEEEE;
+  color: #393E46;
+  overflow: hidden;
+}
+
+.dark-bg{
+  background-color: #393E46;
+  color: #EEEEEE;
+  overflow: hidden;
+}

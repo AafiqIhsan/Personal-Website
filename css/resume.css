@@ -1,0 +1,17 @@
+@media (min-width:1400px){
+    .container>.row p{
+        text-align: center;
+    }
+    .container>.row>.item>.job-designation{
+        text-align: left;
+    }
+}
+
+a{
+    color: #00ADB5 !important; /* Changes text color when clicked */    
+}
+
+a:hover{
+    color: #ffd369 !important; /* Changes text color on hover */
+    background-color: transparent !important; /* No background change */
+}
